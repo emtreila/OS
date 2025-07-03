@@ -1,0 +1,6 @@
+ok: abc
+not ok: def
+ok: 123abc5gh$
+ok: ab571238y
+not ok: ab12c3
+

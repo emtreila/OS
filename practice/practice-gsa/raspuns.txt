@@ -1,0 +1,4 @@
+1) cat last.fake | grep "economica\..* Sun" | cut -d" " -f1 | sort  | uniq 
+2) cat last.fake | grep -E "23:[0-9]{2} - .*" | cut -d" " -f1 | sort | uniq
+3) cat passwd.fake | grep -E "^m" | cut -d: -f3,5| awk -F: ' $1 % 7 == 0 {print $2}'
+
